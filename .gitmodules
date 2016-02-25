@@ -1,0 +1,3 @@
+[submodule "libminesweeper"]
+	path = libminesweeper
+	url = git@github.com:accatyyc/libminesweeper.git
