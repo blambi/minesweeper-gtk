@@ -1,5 +1,5 @@
 CFLAGS = --std=c99 -Wall -pedantic $(shell pkg-config --cflags gtk+-3.0)
-LIBS = $(shell pkg-config --libs gtk+-3.0)
+LIBS = $(shell pkg-config --libs gtk+-3.0) -Ilibminesweeper/include -Llibminesweeper -lminesweeper
 TARGET = minesweeper-gtk
 SRCS= src/minesweeper-gtk.c
 
